@@ -1,0 +1,27 @@
+{
+  "name": "Animation",
+  "main": "Animation.js",
+  "version": "0.0.0",
+  "authors": [
+    "luckygirlalisa <luckygirlalisa@gmail.com>"
+  ],
+  "description": "init bower.json",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "animation"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
