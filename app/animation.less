@@ -1,0 +1,33 @@
+.box {
+	width: 100%;
+	height: 500px;
+  border: 2px solid black;
+	text-align: center;
+  box-sizing: border-box;
+
+  .row {
+  	width: 100%;
+  	box-sizing: border-box;
+  	height: 200px;
+  	display: table;
+  	border-collapse: collapse;
+  		.column {
+  			display: table-cell;
+  			height: inherit;				
+				background-color: green;		
+				border: 5px solid white;
+				width: 33.33%;				
+
+				.cell {
+					height: 50%;
+					width: auto;
+					border-bottom: 5px solid white;		
+
+					&:last-child {
+						border-bottom: 0;
+					}
+				}
+		}
+  }
+	
+}

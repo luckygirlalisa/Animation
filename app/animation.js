@@ -1,4 +1,4 @@
-$(function() {
+(function() {
 	var animate = function() {
 		console.log("in animate function");
 	};
@@ -6,4 +6,4 @@ $(function() {
 	$(document).ready(function() {
 		animate();
 	});
-})(Jquery, window);
+})();
